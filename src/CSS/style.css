@@ -1,0 +1,36 @@
+div {
+    font-family: 'Red Hat Mono', monospace;
+}
+
+body {
+    background-color: #faf4ed;
+}
+.originals, .copies {
+    padding-left: 20px;
+}
+.original-container {
+    border: solid;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.copy-container {
+    border: solid;
+    width: 100px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Work Sans', sans-serif;
+    border-color: #286983;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    background-color: #faf4ed;
+    margin:4px 2px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
