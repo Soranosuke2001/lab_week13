@@ -5,3 +5,8 @@ for (const each_div of all_divs) {
         paste_area.insertAdjacentHTML("afterbegin", each_div.outerHTML)
     });
 }
+
+const reset = document.querySelector('button');
+reset.addEventListener('click', () => {
+    document.location.reload();
+});
